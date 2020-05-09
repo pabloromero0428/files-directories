@@ -12,7 +12,7 @@ En los enlaces adjuntos se coloca un resumen de las llamadas de sistema mas impo
 
 1. **Stat**: Escriba su propia versión del comando ```stat``` (consulte sobre lo que hace este), la cual simplemente invoca la llamada del sistema [```stat()```](http://man7.org/linux/man-pages/man2/stat.2.html) en un archivo o directorio. Imprima el tamaño del archivo, el número de bloques asignado, contador de referencias (links), etc. ¿Qué significa el contador de referencias (link count) de un directorio?, ¿cómo cambia el número de entradas en el directorio? Interfaces útiles: [```stat()```](http://man7.org/linux/man-pages/man2/stat.2.html), naturalmente.
 
->states una funcion que devuelven información del fichero especificado. No se necesitan derechos de acceso al fichero para conseguir la  información  pero  sí  se  necesitan  derechos  de búsqueda para todos los directorios del camino al fichero.
+>**stat** es una funcion que devuelven información del fichero especificado. No se necesitan derechos de acceso al fichero para conseguir la  información  pero  sí  se  necesitan  derechos  de búsqueda para todos los directorios del camino al fichero.
 
 > El **link count** indica el número total de enlaces que tiene un archivo, que no es más que el número de enlaces duros que tiene un archivo. Este recuento, sin embargo, no incluye el recuento de enlaces blandos.
 
